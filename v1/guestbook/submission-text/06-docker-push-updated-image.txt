@@ -1,7 +1,11 @@
 Command:
+docker build . -t us.icr.io/sn-labs-sumiyabazar/guestbook:v1
 docker push us.icr.io/sn-labs-sumiyabazar/guestbook:v1
 
 Output:
+Successfully built 7d5ad5f40b24
+Successfully tagged us.icr.io/sn-labs-sumiyabazar/guestbook:v1
+
 The push refers to repository [us.icr.io/sn-labs-sumiyabazar/guestbook]
 5f70bf18a086: Pushed
 43a2a12cb3c4: Pushed

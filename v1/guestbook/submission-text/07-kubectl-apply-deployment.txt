@@ -1,3 +1,11 @@
+deployment.yml autoscaling configuration:
+
+resources:
+  limits:
+    cpu: 5m
+  requests:
+    cpu: 2m
+
 Command:
 kubectl apply -f deployment.yml
 

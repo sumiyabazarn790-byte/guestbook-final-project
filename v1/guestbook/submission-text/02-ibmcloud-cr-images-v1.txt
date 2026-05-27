@@ -4,7 +4,12 @@ ibmcloud cr images
 Output:
 Listing images...
 
-Repository                                  Tag   Digest                                                                    Namespace              Created          Size     Security status
-us.icr.io/sn-labs-sumiyabazar/guestbook    v1    sha256:2f3c8a9081a49c7e49cdd44e5b7aef69a845f816a89b86e2c32597b4af23e111   sn-labs-sumiyabazar    1 minute ago     64 MB    No Issues
+Repository: us.icr.io/sn-labs-sumiyabazar/guestbook
+Tag: v1
+Digest: sha256:2f3c8a9081a49c7e49cdd44e5b7aef69a845f816a89b86e2c32597b4af23e111
+Namespace: sn-labs-sumiyabazar
+Created: 1 minute ago
+Size: 64 MB
+Security status: No Issues
 
 OK
