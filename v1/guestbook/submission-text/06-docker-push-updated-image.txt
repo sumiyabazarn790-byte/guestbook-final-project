@@ -1,0 +1,10 @@
+Command:
+docker push us.icr.io/sn-labs-sumiyabazar/guestbook:v1
+
+Output:
+The push refers to repository [us.icr.io/sn-labs-sumiyabazar/guestbook]
+5f70bf18a086: Pushed
+43a2a12cb3c4: Pushed
+6cd308fb905f: Pushed
+f8e7d6d9f0f3: Pushed
+v1: digest: sha256:7d5ad5f40b24c0876c482edcb1767c30d7ea71dcf95382fd431730568db50e7a size: 1990

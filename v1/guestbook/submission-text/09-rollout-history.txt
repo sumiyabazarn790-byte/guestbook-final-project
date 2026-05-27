@@ -1,0 +1,26 @@
+Command:
+kubectl rollout history deployment/guestbook
+kubectl rollout history deployment/guestbook --revision=2
+
+Output:
+deployment.apps/guestbook
+REVISION  CHANGE-CAUSE
+1         <none>
+2         <none>
+
+deployment.apps/guestbook with revision #2
+Pod Template:
+  Labels:       app=guestbook
+                pod-template-hash=6c8fb8b6df
+  Containers:
+   guestbook:
+    Image:      us.icr.io/sn-labs-sumiyabazar/guestbook:v1
+    Port:       3000/TCP
+    Host Port:  0/TCP
+    Limits:
+      cpu:      5m
+    Requests:
+      cpu:      2m
+    Environment:        <none>
+    Mounts:             <none>
+  Volumes:              <none>

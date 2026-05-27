@@ -1,0 +1,10 @@
+Command:
+kubectl rollout undo deployment/guestbook --to-revision=1
+kubectl get rs
+
+Output:
+deployment.apps/guestbook rolled back
+
+NAME                   DESIRED   CURRENT   READY   AGE
+guestbook-5f79d6b9c8   1         1         1       28m
+guestbook-6c8fb8b6df   0         0         0       9m
